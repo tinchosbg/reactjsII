@@ -1,0 +1,39 @@
+*::before{
+    margin:0;
+    box-sizing:border-box;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+}
+li{
+    list-style: none;
+}
+.nav__link{
+    text-decoration: none;
+    color:black;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8v;
+    background-color: rgb(221, 221, 221);
+}
+.nav__brand{
+    text-transform:uppercase;
+    font-weight:bold ;
+    text-decoration: none;
+    color:black;
+    font-size:25px;
+    text-align: center;
+    margin-left: 150px;
+}
+.nav__menu{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
